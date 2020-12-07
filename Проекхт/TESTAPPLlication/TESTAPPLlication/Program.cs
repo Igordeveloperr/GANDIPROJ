@@ -6,7 +6,10 @@ namespace TESTAPPLlication
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Write your name!");
+
+            string enterCommand = Console.ReadLine();
+            Console.WriteLine(enterCommand + " ужасный!!!");
         }
     }
 }
