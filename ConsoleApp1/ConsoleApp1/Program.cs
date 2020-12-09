@@ -6,6 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            // инстанс класса Дверь
             Door door = new Door("red", 100, 200);
             door.Animate();
 
