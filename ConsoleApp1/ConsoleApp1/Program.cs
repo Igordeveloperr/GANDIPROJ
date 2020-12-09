@@ -8,7 +8,7 @@ namespace ConsoleApp1
         {
             Door door = new Door("red", 100, 200);
             door.Animate();
-
+            // создаю инстанс класса Колесо
             Wheel wheel = new Wheel();
             wheel.Animate();
         }
