@@ -9,7 +9,8 @@ namespace ConsoleApp1
             // инстанс класса Дверь
             Door door = new Door("red", 100, 200);
             door.Animate();
-
+            Console.WriteLine("ЭТО САМЫЙ СМЕШНОЙ РЕДАКТОР КОДА!!!!!!!!!!!!");
+            Console.WriteLine("more!");
             Wheel wheel = new Wheel();
             wheel.Animate();
         }
